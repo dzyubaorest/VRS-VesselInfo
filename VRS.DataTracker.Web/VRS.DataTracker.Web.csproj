@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VRS.DataTracker.Abstractions\VRS.DataTracker.Abstractions.csproj" />
+    <ProjectReference Include="..\VSR.DataTracker.Infrastructure\VSR.DataTracker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
